@@ -2,9 +2,9 @@ const { appendFile } = require("fs");
 var http = require("http")
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-    console.log('Our app is running on port ${ PORT }');
-});
+//app.listen(PORT, () => {
+    //console.log('Our app is running on port ${ PORT }');
+//});
 
 http.createServer(function (request, response) {
     //Send the HTTP header
