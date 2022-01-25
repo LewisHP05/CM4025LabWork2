@@ -4,19 +4,9 @@
   "description": "node on heroku",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LewisHP05/CM4025LabWork2.git"
-  },
-  "keywords": [
-    "lab"
-  ],
   "author": "Lewis",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/LewisHP05/CM4025LabWork2/issues"
-  },
-  "homepage": "https://github.com/LewisHP05/CM4025LabWork2#readme"
+  "license": "ISC"
 }
